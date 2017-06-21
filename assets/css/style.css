@@ -1,0 +1,28 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: ;
+}
+/*nav*/
+.navbar-default .navbar-collapse{
+	width:100%;
+	height: auto;
+	padding: 3vh;
+}
+.navbar-default .container-fluid{
+	background-color: white;
+}
+.navbar-default{
+	border: none;
+}
+.navbar-default .navbar-nav li a {
+    color: #5F5F5F;
+}    
+.navbar-default .navbar-brand {
+    color: transparent;
+}
+.navbar>.container-fluid .navbar-brand {
+    margin-left: 0px;
+    padding-top: 26px;
+}
+
