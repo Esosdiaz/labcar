@@ -1,7 +1,7 @@
 *{
 	margin: 0;
 	padding: 0;
-	font-family: ;
+	font-family: 'Montserrat', sans-serif;
 }
 /*nav*/
 .navbar-default .navbar-collapse{
@@ -16,7 +16,7 @@
 	border: none;
 }
 .navbar-default .navbar-nav li a {
-    color: #5F5F5F;
+    color: #2b2b2b;
 }    
 .navbar-default .navbar-brand {
     color: transparent;
@@ -24,5 +24,23 @@
 .navbar>.container-fluid .navbar-brand {
     margin-left: 0px;
     padding-top: 26px;
+}
+/*seccion registro*/
+.second-section{
+	background-image: url(../img/taxi.jpg);
+	background-repeat: no-repeat;
+	height: 100vh;
+	width: 100%;
+	background-size: cover;
+	background-position: center bottom;
+}
+.yellow-box{
+	width: auto;
+	height: auto;
+	background-color: #f7b617;
+	color: white;
+}
+.yellow-box h1{
+	font-size: 30px;
 }
 
