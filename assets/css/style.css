@@ -33,14 +33,34 @@
 	width: 100%;
 	background-size: cover;
 	background-position: center bottom;
+	padding-top: 135px;
 }
 .yellow-box{
 	width: auto;
 	height: auto;
 	background-color: #f7b617;
 	color: white;
+	padding: 40px;
 }
-.yellow-box h1{
-	font-size: 30px;
+.yellow-box h3{
+	font-size: 35px;
 }
-
+.yellow-box h4{
+	font-size: 20px;
+}
+.yellow-box img{
+ 	height: 20px;
+}
+.yellow-box p{
+ 	font-size: 15px;
+}
+.yellow-box2{
+	width: auto;
+	height: auto;
+	background-color: #f7b617;
+	color: white;
+	padding: 40px;
+}
+.yellow-box2 h3{
+	font-size: 35px;
+}
