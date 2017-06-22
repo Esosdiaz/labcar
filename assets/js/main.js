@@ -20,7 +20,7 @@ function initMap(){
 			position: {lat:latitud, lng:longitud},
 			animation: google.maps.Animation.DROP,
 			map: map, 
-			icon: "https://image.flaticon.com/icons/png/512/33/33622.png"
+			icon: "assets/iconos/fonts/facebook-placeholder-for-locate-places-on-maps.png"
 		});
 		map.setZoom(17);
 		map.setCenter({lat:latitud, lng:longitud});
