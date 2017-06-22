@@ -25,7 +25,7 @@
     margin-left: 0px;
     padding-top: 26px;
 }
-/*seccion registro*/
+/*segunda seccion*/
 .second-section{
 	background-image: url(../img/taxi.jpg);
 	background-repeat: no-repeat;
@@ -42,7 +42,7 @@
 	color: white;
 	padding: 40px;
 }
-.yellow-box h3{
+.yellow-box h1{
 	font-size: 35px;
 }
 .yellow-box h4{
@@ -54,13 +54,52 @@
 .yellow-box p{
  	font-size: 15px;
 }
-.yellow-box2{
-	width: auto;
-	height: auto;
-	background-color: #f7b617;
-	color: white;
-	padding: 40px;
+.yellow-box button{
+	font-weight: 500;
 }
-.yellow-box2 h3{
-	font-size: 35px;
+/*Tercera seccion*/
+.third-section{
+	height: auto;
+	width: 100%;
+	background-color: #f7b617;
+	padding: 10vh;
+	padding-left: 0px;
+	color: white;
+}
+.borde-blanco{
+	border-color: #fff;
+  	border-style: solid;
+  	border-width: 1px;
+  	border-left: none;
+	padding-left: 0px;
+	width: 80%;
+	padding: 5vh;
+	float: left;
+}
+.cel-desktop{
+	width: 40%;
+	margin: 5vh;
+}
+.cel-desktop h3{
+	font-size: 30px;
+	font-weight: 200;
+}
+.cel-desktop p{
+ 	font-size: 15px; 
+ 	line-height: 150%;
+}
+.cel-responsive{
+	border-color: #fff;
+  	border-style: solid;
+  	border-width: 1px;
+	width: 100%;
+	padding: 5vh;
+	margin-left: 32px;
+}
+.cel-responsive h3{
+	line-height: 200%;
+}
+.parrafo-llega p{
+	margin-left: 67px;
+	margin-top: 16px;
 }

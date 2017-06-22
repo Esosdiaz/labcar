@@ -6,7 +6,7 @@
 	<meta name="viewport" content="initial-scale=1, maximum-scale=1">
 	<title>LabCar</title>
 	<!-- Latest compiled and minified CSS -->
-	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700" rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<!--CSS-->
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
@@ -27,14 +27,14 @@
     			</div>
    				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       				<ul class="nav navbar-nav navbar-right">
-        				<li><a href="#">Viaja</a></li>
-        				<li><a href="#">Conduce</a></li>
-        				<li><a href="#">Inicia sesión</a></li>
+        				<li><a href="#viaja">Viaja</a></li>
+        				<li><a href="#conduce">Conduce</a></li>
+        				<li><a href="#inicia-sesion">Inicia sesión</a></li>
      				 </ul>
     			</div><!-- /.navbar-collapse -->
  			</div><!-- /.container-fluid -->
 		</nav>
-	<section class="second-section container-fluid">
+	<section class="second-section container-fluid" id="viaja">
 		<div class="row">
 			<div class="col-lg-12 col-md-12 hidden-sm hidden-xs pull-right yellow-box">
 				<h3>Disfruta tu viaje<br>Eres dueño de tu tiempo</h3><br>
@@ -44,39 +44,47 @@
 				<button type="button" class="btn btn-default">Conviértete en un conductor</button>
 			</div>
 			<div class="hidden-lg hidden-md col-md-12 col-xs-12 pull-right yellow-box">
-				<h3>Comienza a <br>viajar con<br><img src="assets/img/logo-blanco.png"></h3>
+				<h1>Comienza a <br>viajar con<br><img src="assets/img/logo-blanco.png"></h1>
 				<button type="button" class="btn btn-default">Descarga la app</button>
 			</div>
 		</div>
-
-
-
-		</div>
 	</section>
-	<section class="third-section">
-		<div class="container-fluid">
+	<section class="third-section container-fluid" id="">
+		<div class="container container1 hidden-sm hidden-xs">
 			<div class="row">
-				<div class="hidden-lg hidden-md col-xs-12">
+				<div class="borde-blanco col-lg-6 col-md-6 hidden-sm hidden-xs">
+					<div class="col-lg-6 col-md-6 hidden-sm hidden-xs cel-desktop">
+						<img src="assets/img/celular.png" class="img-responsive">
+					</div>
+					<div class="col-lg-6 col-md-6 hidden-sm hidden-xs cel-desktop text-rigth">
+						<h3>Descarga la nueva app</h3><br>
+						<p>La versión actualizada de LabCar está llena de nuevas funciones para llegar dónde quieras aún más fácil y rápido.</p>
+						<p>Con sólo tocar un botón, un auto llega justo a tu ubicación. Súbete y no te preocupes; tu conductor sabe justo a dónde ir.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container container2 hidden-lg hidden-md text-center">
+			<div class="row">
+				<div class="hidden-lg hidden-md col-md-12 col-xs-12 text-center cel-responsive">
 					<h3>La nueva app</h3>
+					<img src="assets/img/celular.png" class="img-responsive">
 				</div>
-				<div class="col-md-6 col-xs-12">
-					<img src="assets/img/celular.png">
-				</div>
-				<div class="col-md-6 hidden-sm hidden-xs">
-					<h3>Descarga la nueva app</h3>
-					<p>La versión actualizada de LabCar está llena de nuevas funciones para llegar a donde quieras aún más fácil y rápido.</p>
-					<p>Con solo tocar un botón, un auto llega justo a tu ubicación. Súbete y no te preocupes: tu conductor sabe justo a dónde ir</p>
-				</div>
-				<div class="hidden-lg hidden-md col-xs-12">
-					<p>Llega a tu destino aún más rápido</p>
-				</div>
+			</div>	
+			<div class="hidden-lg hidden-md col-md-12 col-xs-12 text-center parrafo-llega">
+				<p>Llega a tu destino aún más rápido</p>
 			</div>
 		</div>
 	</section>
 	<section class="fouth-section container-fluid">
 		<div class="row">
-			<div class="col-lg-12 col-md-12 col-xs-12 col-sm-12 pull-right">
-				<h3>Conduce cuando quieras</h3>
+			<div class="col-lg-12 col-md-12 hidden-md hidden-xs pull-right">
+				<h3>Conduce cuando quieras</h3><br><br>
+				<p>LabCar es una opción flexible para alcanzar tus metas financieras.</p>
+				<button type="button" class="btn btn-default">Conviértete en un conductor</button>
+			</div>
+			<div class="hidden-lg hidden-md col-xs-12 col-sm-12 pull-right">
+				<h3>Conduce cuando quieras</h3><br><br>
 				<p>LabCar es una opción flexible para alcanzar tus metas financieras.</p>
 				<button type="button" class="btn btn-default">Conviértete en un conductor</button>
 			</div>
