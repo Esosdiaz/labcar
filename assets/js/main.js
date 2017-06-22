@@ -11,7 +11,6 @@ function initMap(){
 			navigator.geolocation.getCurrentPosition(funcionExito, funcionError);
 		}
 	}
-	document.getElementById("encuentrame").addEventListener("click", buscar);
 	var latitud,longitud;
 
 	var funcionExito = function(posicion){
@@ -21,6 +20,7 @@ function initMap(){
 			position: {lat:latitud, lng:longitud},
 			animation: google.maps.Animation.DROP,
 			map: map, 
+			icon: "https://image.flaticon.com/icons/png/512/33/33622.png"
 		});
 		map.setZoom(17);
 		map.setCenter({lat:latitud, lng:longitud});
@@ -35,4 +35,5 @@ function initMap(){
 		var autocompletados = new google.maps.places.Autocomplete(inputDestino);
 }
 google.maps.event.addDomListener(window, 'load', initialize);
+buscar();
 }

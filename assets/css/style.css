@@ -188,7 +188,8 @@
 }
 .fifth-section input{
 	background-color: #f7b617;
-	width: 200px;
+	width: 230px;
+	padding-left: 10px;
 	height: 50px;
 	border-radius: 5px;
 	border-color: #fff;
@@ -219,11 +220,12 @@
 .fifth-section .form input::-ms-input-placeholder { /* Internet Explorer 10-11 */
    color: white;
 }
-
+.borde-mapa{
+border: 2px solid white;
+}
 #map{
 	width: 45%;
 	height: 50vh;
-	border: 2px solid white;
 	padding: 5px;
 }
 /*footer*/
@@ -245,12 +247,18 @@
 	border-right: none;
 	padding: 3vh;
 }
+.lineas-blancas .iconos{
+	padding-top: 130px;
+}
 .lineas-blancas ul{
 	list-style: none;
 }
 .lineas-blancas li a{
 	color: white;
 	text-decoration: none;
+}
+.lineas-blancas li a:hover{
+	background-color: #f7b617;
 }
 .lineas-blancas2{
 	width: 100%;
@@ -270,6 +278,9 @@
 .lineas-blancas2 li a{
 	color: white;
 	text-decoration: none;
+}
+.lineas-blancas2 li a:hover{
+	background-color: #f7b617;
 }
 
 .fa-tech{
