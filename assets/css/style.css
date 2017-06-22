@@ -8,6 +8,7 @@
 	width:100%;
 	height: auto;
 	padding: 3vh;
+	padding-right: 70px;
 }
 .navbar-default .container-fluid{
 	background-color: white;
@@ -23,7 +24,11 @@
 }
 .navbar>.container-fluid .navbar-brand {
     margin-left: 0px;
-    padding-top: 26px;
+    padding-top: 25px;
+}
+.navbar-brand>img {
+	padding-left: 70px;
+	padding-top: 0px;
 }
 /*segunda seccion*/
 .second-section{

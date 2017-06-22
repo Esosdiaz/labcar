@@ -20,7 +20,7 @@ function initMap(){
 		var miUbicacion = new google.maps.Marker({
 			position: {lat:latitud, lng:longitud},
 			animation: google.maps.Animation.DROP,
-			map: map
+			map: map, 
 		});
 		map.setZoom(17);
 		map.setCenter({lat:latitud, lng:longitud});
@@ -28,4 +28,11 @@ function initMap(){
 	var funcionError = function(error){
 		alert("Tenemos un problema para encontrar tu ubicación");
 	}
+	function initialize() {//autocompletar direcciones
+		var inputOrigen = document.getElementById('origen');
+		var autocomplete = new google.maps.places.Autocomplete(inputOrigen);
+		var inputDestino = document.getElementById('destino');
+		var autocompletados = new google.maps.places.Autocomplete(inputDestino);
+}
+google.maps.event.addDomListener(window, 'load', initialize);
 }
