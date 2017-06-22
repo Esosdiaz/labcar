@@ -16,6 +16,12 @@
 .navbar-default{
 	border: none;
 }
+.navbar-toggle{
+	float:left;
+	margin-top: 3vh;
+	margin-left: 3vh;
+
+}
 .navbar-default .navbar-nav li a {
     color: #2b2b2b;
 }    
@@ -27,7 +33,7 @@
     padding-top: 25px;
 }
 .navbar-brand>img {
-	padding-left: 70px;
+	padding-left: 40px;
 	padding-top: 0px;
 }
 /*segunda seccion*/
@@ -146,6 +152,9 @@
 	color:#f7b617 ;
 	background-color:  white;
 }
+.drive1 .row{
+    margin-right: 0px;
+}
 .fourth-section .drive2{
 	background-image: url(../img/conduce.jpg);
 	background-repeat: no-repeat;
@@ -196,6 +205,21 @@
 	color: white;
 	background-color:  #f7b617;
 }
+.fifth-section .form input::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: white;
+}
+.fifth-section .form input::-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color: white;
+   opacity: 1 /* esto es porque Firefox le reduce la opacidad por defecto */;
+}
+.fifth-section .form input::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color: white;
+   opacity:  1;
+}
+.fifth-section .form input::-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: white;
+}
+
 #map{
 	width: 45%;
 	height: 50vh;
