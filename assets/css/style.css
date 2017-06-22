@@ -58,7 +58,7 @@
 	font-weight: 500;
 	padding: 20px;
 	border: none;
-
+	cursor:pointer;
 }
 /*Tercera seccion*/
 .third-section{
@@ -131,6 +131,7 @@
 	color: white;
 	border: none;
 	padding: 20px;
+	cursor:pointer;
 }
 .fourth-section .drive2{
 	background-image: url(../img/conduce.jpg);
@@ -153,5 +154,83 @@
 	color: white;
 	border: none;
 	padding: 20px;
+	cursor:pointer;
+}
+/*quinta seccion*/
+.fifth-section{
+	height: auto;
+	width: 100%;
+	background-color: #f7b617;
+	padding: 10vh;
+	color: white;
+}
+.fifth-section input{
+	background-color: #f7b617;
+	width: 200px;
+	height: 50px;
+	border-radius: 5px;
+	border-color: #fff;
+  	border-style: solid;
+  	border-width: 1px;
+}
+.fifth-section button{
+	font-weight: 500;
+	padding: 20px;
+	border: none;
+	cursor:pointer;
+}
+#map{
+	width: 45%;
+	height: 50vh;
+	border: 2px solid white;
+	padding: 5px;
+}
+/*footer*/
+.sixth-section{
+	height: auto;
+	width: 100%;
+	background-color: #2b2b2b ;
+	padding: 10vh;
+	color: white;
+}
+.logo-footer{
+	padding-bottom: 3vh;
+}
+.lineas-blancas{
+	width: 100%;
+	height: auto;
+	border: 1px solid white;
+	border-left:none;
+	border-right: none;
+	padding: 3vh;
+}
+.lineas-blancas ul{
+	list-style: none;
+}
+.lineas-blancas li a{
+	color: white;
+	text-decoration: none;
+}
+.lineas-blancas2{
+	width: 100%;
+	height: auto;
+	border: 1px solid white;
+	border-left:none;
+	border-right: none;
+	padding-top: 3vh;
+	padding-bottom: 3vh;
+}
+.lineas-blancas2 img{
+	width: 100%;
+}
+.lineas-blancas2 ul{
+	list-style: none;
+}
+.lineas-blancas2 li a{
+	color: white;
+	text-decoration: none;
 }
 
+.fa-tech{
+	padding-top: 3vh;
+}
